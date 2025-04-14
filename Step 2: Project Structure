@@ -1,0 +1,9 @@
+custom-mfa/
+├── app.py                  # Main Flask app
+├── mfa_utils.py            # OTP generation & email
+├── templates/
+│   ├── login.html
+│   ├── verify.html
+│   └── success.html
+├── users.db                # SQLite DB
+└── README.md
